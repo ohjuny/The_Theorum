@@ -6,8 +6,8 @@ If you've read John Green's "An Abundance of Katherines", you know exactly what 
 For those of you who haven't, here's a brief explanation:
 Basically, it's a relationship predictor. In the book, the main character strives to determine a function that can
 predict relationships (how long they last, when the relationship peeks and dips, who dumps who, etc.). So I have written
-a program in Python 2.7 that calculates everything for you and outputs a formula that you can plug into WolframAlpha's
-graph plotter (the link is in the program file).
+a program in Python 2.7 that calculates everything for you and outputs a formula that you can copy and paste into 
+WolframAlpha's graph plotter (the link is in the program file).
 
 SPOILERS (kind of. I would read the book before reading the rest of this.)
 
