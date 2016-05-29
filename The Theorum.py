@@ -1,3 +1,7 @@
+# UPDATED
+# - Debugged the error in which an imaginary number was generated
+
+
 #"The Thoerum" from "An Abundance of Katherines"
 
 #http://effyeahnerdfighters.com/post/683364805/colins-equation-from-an-abundance-of-katherines
@@ -25,9 +29,19 @@ C = (pop1 - pop2) / 75
 print("\n\n")
 
 #Attractiveness Differential
-print("On a scale of 0 to 5...")
-att1 = input("How attractive is %s? " %(per1))
-att2 = input("How attractive is %s? " %(per2))
+print("On a scale of 0 to 5... (ONLY INTEGERS)")
+while True:
+    att1 = input("How attractive is %s? " %(per1))
+    if att1 % 1 == 0:
+        break
+    print("an INTEGER")
+
+while True:
+    att2 = input("How attractive is %s? " %(per2))
+    if att2 % 1 == 0:
+        break
+    print("Enter an INTEGER")
+
 H = att1 - att2
 
 print("\n\n")
